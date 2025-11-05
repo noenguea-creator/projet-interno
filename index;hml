@@ -1,35 +1,68 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
-<meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>mon framwork</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<header>
 
-<nav>
-    <a href=""><img src="" alt=""></a>
-    <ul>
-        <li><a href=""></a></li>
-        <li><a href=""></a></li>
-        <li><a href=""></a></li>
-        <li><a href=""></a></li>
-    </ul>
-</nav>
-<main>
+<header class="flex space-between align-center ">
+    <a href=""><img src="asset/Logo.png" alt="" class="logo"></a>
+    <!--navigation-->
+    <nav class="w-33">
+        <ul class="flex space-between">
+            <li><a href="">home</a></li>
 
-    <section>
-        <img src="" alt="">
-        <div>
-            <h1></h1>
-            <p></p>
-            <a href=""></a>
-        </div>
-    </section>
-</main>
-    
+            <li><a href=""> service </a></li>
+            <li><a href=""> projet </a></li>
+            <li><a href=""> contact </a></li>
+        </ul>
+    </nav>
+
+
+</header>
+
 <body>
-    
+    <main>
+        <section class="section-hero  align-center flex ">
+
+            <div class="container">
+                <h1>Rendez votre maison unique</h1>
+                <p>Nous croyons que chaque espace a le potentiel d'être exceptionnel.</p>
+                <a href="" class=btn>construison vos projet </a>
+            </div>
+        </section>
+        <section class="container space-between flex">
+        
+            <div class="w-25 ">
+                <h3>vison</h3>
+                <p>notre processus commence par comprendre votre vision. Nous écoutons attentivement vos idées, vos
+                    rêves et vos besoins pour créer un design qui vous correspond.</p>
+            </div>
+            <div class="   w-25">
+                <h3>créativité</h3>
+                <p>Notre équipe de designers explore des concepts uniques pour chaque projet, en veillant à ce que
+                    chaque détail soit une expression authentique de votre personnalité.</p>
+            </div>
+            <div class="w-25  ">
+                <h3>Exécution Impeccable</h3>
+                <p>Nous nous engageons à fournir des résultats exceptionnels. Notre équipe supervise chaque étape du
+                    processus, de la conception initiale à l'installation finale.</p>
+        
+            </div>
+        </div>
+        </section>
+        <section>
+            <div>
+                <h2></h2>
+                <p></p>
+                <div><a href=""></a></div>
+            </div>
+        </section>
+    </main>
+
 </body>
+
 </html>
