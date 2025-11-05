@@ -1,12 +1,19 @@
-*{
+* {
     box-sizing: border-box;
     padding: 0;
-    margin:0;
+    margin: 0;
 }
-a{text-decoration: none;
-color: black;}
 
-.btn{
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.txt-center {text-align: center;}
+.bold{
+    font-weight: 600;
+}
+.btn {
     background-color: gray;
     border-radius: 5px;
     color: white;
@@ -16,90 +23,109 @@ color: black;}
 
 /*classe fonctionel flex box*/
 
-.flex{
+.flex {
     display: flex;
     flex-wrap: wrap;
 }
-.space-between{
+
+.space-between {
     justify-content: space-between;
 
 }
 
-.justify-center{
+.justify-center {
     justify-content: center;
 }
-.space-around{
+
+.space-around {
     justify-content: space-around;
 }
-
-.align-center{
-    align-items: center;
-}
-.container{
-    max-width: 1000px;
-    margin: auto;
-    width: 100%;
-margin-left: auto
-;
-margin-right:auto ;}
-  
-    .margintop100{
-        margin-top: 100px;;
-        margin-left: auto;
-        margin-right: auto;
-        width:100% ;
-
-
-    }
-
-
-/*classe de dimensions*/
-
-.w-100{
-    width: 100%;
-}
-.w-48{
-width: 48%; 
-}
-.w-50{
-   width: 50%;
-}
-.w-33{
-    width: 33%;
-
-}
-.w-25{
-    width: 25%;
-}
-
-header{
-padding: 10px 64px;
-background-color:white;
-box-shadow: 0px 5px 10px rgb(79, 79, 79);}
-
-
-ul {
-  list-style-type : none;
-}
-.section-hero{background-image: url(asset/Banner.jpg);
-background-repeat: no-repeat;
-background-position: center;
-background-size:cover ;
-height: 100vh;}
 
 .align-center {
     align-items: center;
 }
 
-.justify-center {
-    justify-content}
+.container {
+    max-width: 1000px;
+    margin: auto;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
 
-     .margintop100{
-        margin-top: 100px;;
-        margin-left: auto;
-        margin-right: auto;
-        width:100% ;
+.margintop100 {
+    margin-top: 100px;
+    ;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 
 
-    }
-   .border-radius:{ 10px 5%}
+}
+
+
+/*classe de dimensions*/
+
+.w-100 {
+    width: 100%;
+}
+
+.w-48 {
+    width: 48%;
+}
+
+.w-50 {
+    width: 50%;
+}
+.w-40{
+    width: 40%;
+}
+.w-33 {
+    width: 33%;
+
+}
+
+.w-25 {
+    width: 25%;
+}
+
+header {
+    padding: 10px 64px;
+    background-color: white;
+    box-shadow: 0px 5px 10px rgb(79, 79, 79);
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+.section-hero {
+    background-image: url(asset/Banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+
+.margintop100 {
+    margin-top: 100px;
+}
+
+
+.card {
+    box-shadow: 5px 5px 10px gray;
+    padding: 20px;
+    border-radius: 20%;
+}
+
+.card>p {margin-top: 20px;
+border-radius: 20%;}
+.backgroud-blue{
+   background-color:  #292f36
+}
+.txt-white{
+    color: white;
+}
