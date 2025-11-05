@@ -1,0 +1,104 @@
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+}
+a{text-decoration
+color: }
+
+    font-size: 
+    margin-top: ;
+}
+.btn{
+   
+}
+.btn-primary{}
+.btn-secondary{}
+/*classe fonctionel flex box*/
+
+.flex{
+    display: ;
+    flex-wrap: ;
+}
+.space-between{
+  
+
+}
+
+.justify-center{
+ 
+}
+.space-around{
+    
+
+.align-center{
+
+}
+.container{
+   
+
+
+
+    .margintop100{
+     
+    
+       
+
+
+    }
+
+
+/*classe de dimensions*/
+
+.w-100{
+ 
+}
+.w-48{
+
+}
+.w-50{
+
+}
+.w-33{
+
+
+}
+.w-25{
+
+}
+
+/*header*/
+header{
+padding: 
+background-color: 
+box-shadow: 
+    width: 
+}
+header ul{
+    list-style: 
+}
+/*section hero*/
+.section-hero{
+
+
+}
+
+h1{
+
+
+}
+.section-hero div>p{
+ : ;
+ : 
+}
+/*section service*/
+.card{
+   : 
+  
+}
+.card h3{
+: ;
+}
+.card p {
+ 
+}
